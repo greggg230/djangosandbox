@@ -56,7 +56,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'djangosandbox.wsgi.application'
+WSGI_APPLICATION = 'djangosandbox.conf.wsgi.application'
 
 
 # Database
