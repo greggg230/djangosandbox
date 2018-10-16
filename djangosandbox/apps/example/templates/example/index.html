@@ -1,0 +1,9 @@
+{% extends "example/base.html" %}
+
+{% block body %}
+<h2>Hi there!</h2>
+<p>Welcome to the blog.</p>
+{% for blog_post in blog_posts %}
+<p>{{ blog_post.name }}</p>
+{% endfor %}
+{% endblock %}
