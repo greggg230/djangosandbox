@@ -1,6 +1,6 @@
 from django.contrib import admin
 
-from genesishealth.apps.pharmacy.models import PharmacyPartner
+from djangosandbox.apps.example.models import BlogPost
 
 
-admin.site.register(PharmacyPartner)
+admin.site.register(BlogPost)
